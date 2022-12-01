@@ -11,6 +11,8 @@ public class Testtwo extends Basic {
 	WebDriver driver;
 	@Test
 	public void test2() throws InterruptedException {
+		System.out.println("this is the second change");
+		
 		WebDriverManager.chromedriver().setup();
 		 driver=new ChromeDriver();
 		driver.manage().window().maximize();
