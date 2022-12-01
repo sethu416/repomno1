@@ -22,6 +22,7 @@ public class Testfour extends Basic{
 		 driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
+		System.out.println("this is the third chnage");
 		Thread.sleep(3000);
 		Assert.assertTrue(false);
 	}
