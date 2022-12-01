@@ -16,7 +16,9 @@ public class Testfour extends Basic{
 
 	@Test
 	public void test4() throws InterruptedException {
+		System.out.println("this is the first change");
 		WebDriverManager.chromedriver().setup();
+		
 		 driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
